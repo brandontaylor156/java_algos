@@ -1,4 +1,4 @@
-# Recursion Question 3
+# gcd
 
 Find the GCD (Greatest Common Divisor) of two numbers using recursion.
 
