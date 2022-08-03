@@ -1,4 +1,4 @@
-# Recursion Question 2
+# power
 
 Calculate the power of a number using recursion
 
