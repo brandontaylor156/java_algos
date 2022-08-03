@@ -1,4 +1,4 @@
-# Recursion Question 4
+# decimalToBinary
 
 Convert a number from decimal to binary using recursion.
 
