@@ -1,4 +1,4 @@
-# Recursion Question 1
+# sumOfDigits
 
 Find the sum of digits of a positive integer using recursion.
 
