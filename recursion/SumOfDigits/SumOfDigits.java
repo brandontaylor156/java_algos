@@ -6,6 +6,10 @@ public class SumOfDigits{
     }
 
     public int getSum(int num){
+        // Unintentional case
+        if (num < 0)
+            return -1;
+
         if (num/10 == 0)
             return num;
         return num % 10 + getSum(num/10);
