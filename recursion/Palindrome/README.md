@@ -6,12 +6,12 @@ Write a recursive function called __isPalindrome__ which returns true if the str
 
 __Examples__
 
-```
-isPalindrome('awesome') // false
+```java
+isPalindrome('awesome'); // false
 
-isPalindrome('foobar') // false
+isPalindrome('foobar'); // false
 
-isPalindrome('tacocat') // true
+isPalindrome('tacocat'); // true
 
-isPalindrome('amanaplanacanalpanama') // true
+isPalindrome('amanaplanacanalpanama'); // true
 ```

@@ -6,10 +6,10 @@ Write a recursive function called someRecursive which accepts an array and a cal
 
 __Examples__
 
-```
-someRecursive({1,2,3,4}, isOdd) // true
+```java
+someRecursive({1,2,3,4}, isOdd); // true
 
-someRecursive({4,6,8,9}, isOdd) // true
+someRecursive({4,6,8,9}, isOdd); // true
 
-someRecursive({4,6,8}, isOdd) // false
+someRecursive({4,6,8}, isOdd); // false
 ```

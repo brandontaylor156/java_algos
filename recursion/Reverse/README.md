@@ -6,8 +6,8 @@ Write a recursive function called __reverse__ which accepts a string and returns
 
 __Examples__
 
-```
-reverse('java') // 'avaj'
+```java
+reverse('java'); // 'avaj'
 
-reverse('appmillers') // 'srellimppa'
+reverse('appmillers'); // 'srellimppa'
 ```

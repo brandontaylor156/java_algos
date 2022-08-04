@@ -6,8 +6,8 @@ Write a function called __recursiveRange__ which accepts a number and adds up al
 
 __Examples__
 
-```
-recursiveRange(6) // 21
+```java
+recursiveRange(6); // 21
 
-recursiveRange(10) // 55
+recursiveRange(10); // 55
 ```
