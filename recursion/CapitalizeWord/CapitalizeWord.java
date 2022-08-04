@@ -12,10 +12,11 @@ public class CapitalizeWord {
         // Initialize a char to last character of current substring
         char chr = words.charAt(words.length()-1);
 
-        // Capitalize that char if character before is a space, or if substring is length 1
+        // IF ONE CHARACTER LEFT OF STRING, CAPITALIZE IT AND RETURN RETURN RETURN
         if (words.length() == 1)
             return Character.toString(Character.toUpperCase(chr));
         
+        // IF SPACE PRECEDING CHARACTER, CAPITALIZE CHARACTER
         if (words.substring(words.length()-2, words.length()-1).equals(" "))
             chr = Character.toUpperCase(chr);
 
