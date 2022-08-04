@@ -1,6 +1,6 @@
 # String Permutation
 
-Your are given two string arrays. Write a program to check if they are permutations of each other.
+You are given two string arrays. Write a program to check if they are permutations of each other.
 
 ---
 
