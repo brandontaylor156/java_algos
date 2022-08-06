@@ -1,6 +1,6 @@
 # Duplicate Number
 
-Write a function to remove duplicate numbers in a given array
+Write a function to remove duplicate numbers from a sorted array
 
 ---
 
