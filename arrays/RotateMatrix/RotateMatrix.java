@@ -17,7 +17,7 @@ public class RotateMatrix{
 
         while(left < right){
             offset = 0;
-            while (offset < matrix.length-1 - left){
+            while (offset < right - left){
                 int temp = matrix[top][left+offset];
 
                 matrix[top][left+offset] = matrix[bottom-offset][left];
