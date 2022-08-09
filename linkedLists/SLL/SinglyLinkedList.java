@@ -82,10 +82,22 @@ public class SinglyLinkedList{
     public void deleteFromFront(){
         if (head == null)
             return;
-        else if (head.next == null)
-            head = null;
         else {
-            
+            head = head.next;
+        }
+    }
+
+    public void deleteFromBack(){
+        if (head == null || head.next == null){
+            head = null;
+            return;
+        }
+        else {
+            Node runner = head;
+            while (runner.next.next != null){
+                runner = runner.next;
+            }
+            runner.next = null;
         }
     }
     

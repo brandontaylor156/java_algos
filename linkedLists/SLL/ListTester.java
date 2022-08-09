@@ -7,7 +7,7 @@ public class ListTester{
         newList.addToBack(10);
         newList.addAtIndex(99, 4);
         newList.deleteFromFront();
-        newList.deleteFromFront();
+        newList.deleteFromBack();
 
         newList.printList();
     }
