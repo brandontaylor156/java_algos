@@ -32,7 +32,7 @@ public class SinglyLinkedList{
     }
 
     // Add node at a specified index
-    // Check for invalid input (less than 0), then if list is empty, then if index is 0, then if index is greater than 0. If index is one after length of current list, append to end. Anything greater, index out of range. 
+    // Check for invalid input (less than 0), then if list is empty, then if index is 0, then if index is greater than 0. If index is more than length of list, append to end. Anything greater, index out of range. 
 
     // Set a previous node equal to head and runner equal to head.next
     // Start at position 1 and loop while curr != null
