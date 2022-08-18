@@ -36,7 +36,7 @@ public class SinglyLinkedList{
 
     // Set a previous node equal to head and runner equal to head.next
     // Start at position 1 and loop while curr != null
-    // If index equals location, insert and return. After while loop, check same conditions for last node in list
+    // If index equals location, insert and return. After while loop, check same conditions for appending a node to end
     public void addAtIndex(int value, int index){
         Node newNode = new Node(value);
         if (head == null){
@@ -213,7 +213,6 @@ public class SinglyLinkedList{
         }
     }
 
-    // Unfinished
     public void reverseList(){
         if (head == null || head.next == null){
             return;
@@ -221,13 +220,15 @@ public class SinglyLinkedList{
         else {
             Node prev = head;
             Node curr = head.next;
-            while(curr != null){
+            prev.next = null;
+            while(curr.next != null){
                 Node temp = curr.next;
                 curr.next = prev;
                 prev = curr;
                 curr = temp;
             }
-                      
+            curr.next = prev;
+            head = curr;
         }
     }
     
