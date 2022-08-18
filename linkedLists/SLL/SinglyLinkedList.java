@@ -213,6 +213,7 @@ public class SinglyLinkedList{
         }
     }
 
+    // If list empty or length 1, return. Else, prev and curr pointers, set prev.next = null (new last node). Loop while curr.next points to a node, temp node equal to curr.next. Set curr.next to previous node, previous node equal to curr, and curr equal to temp. After loop, set last (now first) node equal to previous. Head = curr
     public void reverseList(){
         if (head == null || head.next == null){
             return;
