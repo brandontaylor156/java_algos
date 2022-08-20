@@ -1,3 +1,4 @@
+
 public class DoublyLinkedList{
     public DLNode head;
     public DLNode tail;
@@ -72,6 +73,8 @@ public class DoublyLinkedList{
         return count;
     }
 
+
+    // Empty list then index 0 then while loop. WHILE CURRNODE IS NOT NULL FOR INSERTING, then check if index equal to size+1. If it is, use the tail of list.
     public void insertAt(int value, int index){
         DLNode newNode = new DLNode(value);
         if (head == null){
@@ -109,6 +112,7 @@ public class DoublyLinkedList{
         }
     }
 
+    // Empty list then index 0 then while loop. WHILE CURRNODE.next != null
     public void removeAt(int index){
         if (head == null){
             return;
@@ -143,6 +147,7 @@ public class DoublyLinkedList{
         }
     }
 
+    // Stop while loop if runner1.prev = runner2
     public boolean isPalindrome(){
         DLNode runner1 = head;
         DLNode runner2 = tail;
