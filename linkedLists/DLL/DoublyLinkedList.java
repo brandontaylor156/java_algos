@@ -162,6 +162,30 @@ public class DoublyLinkedList{
         return true;
     }
 
+    // SLL reverse, taking into account pointers. May be a much simpler solution 
+    public void reverseList(){
+        if (head == null || head.next == null){
+            return;
+        }
+        DLNode prevNode = head;
+        DLNode currNode = head.next;
+        prevNode.next = null;
+        DLNode tempNode;
+        while(currNode.next != null){
+            prevNode.prev = currNode;
+            tempNode = currNode.next;
+            currNode.next = prevNode;
+            currNode.prev = tempNode;
+            prevNode = currNode;
+            currNode = tempNode;
+        }
+        currNode.next = prevNode;
+        prevNode.prev = currNode;
+        tempNode = head;
+        head = tail;
+        tail = tempNode;
+    }
+
     public void printDLL(){
         DLNode runner = head;
         while(runner != null){
