@@ -12,7 +12,7 @@ public class BestScore {
     // O(N^2) VERSION
     public String firstSecond(Integer[] arr){
         if (arr.length < 2)
-            return "Must have at least 2 scores, Buddy boy!";
+            return "Must have at least 2 scores, Buddy boy!!";
 
         int maxSum = 0;
         int score1 = 0, score2 = 0;
